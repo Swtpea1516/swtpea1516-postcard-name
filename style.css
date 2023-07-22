@@ -1,0 +1,61 @@
+body{
+    background-color:black;
+}
+.postcard {background-color: white;
+        width: 500px;;
+}
+.header{ 
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    
+}
+img {
+    float: center;
+    margin-left: 16px;
+}
+h1 { font-weight: normal; 
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-right: 16px;
+}
+.body{
+    display: flex;
+    padding: 3rem;
+}
+
+.body-right{
+    margin-left: 4rem;
+    margin-top: -10px;
+}
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.div {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -20px;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+   
+}
+.body-right input{
+    
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 1rem;
+
+}
+
+
+  
+.footer{
+    text-align:center;
+}
+.footer button{
+    text-align:center;
+    background-color: darkgray;
+    margin: 1rem;
+}
